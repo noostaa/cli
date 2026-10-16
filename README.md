@@ -34,12 +34,12 @@ in new terminal sessions.
 
 ## macOS signing status
 
-**The initial v0.1.0 release is unsigned and is not Apple-notarized.** macOS
-Gatekeeper may block it. If you require signed software, wait for a notarized
-release. Check each release's notes for its signing status.
+The initial v0.1.0 release is unsigned and is not Apple-notarized.
+Use v0.1.1 or newer for notarized macOS builds.
 
-Future notarized releases will also offer `.pkg` installers for Apple Silicon
-and Intel Macs. Those install `noostaa-agent` into `/usr/local/bin`.
+Starting with v0.1.1, macOS releases are Developer ID signed and Apple-notarized.
+Choose the `.pkg` installer for Apple Silicon or Intel to install
+`noostaa-agent` into `/usr/local/bin`, or download the corresponding ZIP.
 
 ## Verify downloads
 
